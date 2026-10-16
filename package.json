@@ -1,0 +1,18 @@
+{
+  "name": "bhoomiloop-upi-mock",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Mock UPI payment server for Bhoomiloop (POST /payments, simulate callbacks/webhooks)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "cbshukla14-bhoomiloop",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  }
+}
