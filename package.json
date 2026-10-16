@@ -6,13 +6,18 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "migrate": "node db/migrate.js"
   },
   "keywords": [],
   "author": "cbshukla14-bhoomiloop",
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
-    "uuid": "^9.0.0"
+    "uuid": "^9.0.0",
+    "knex": "^2.4.2",
+    "sqlite3": "^5.1.6",
+    "pg": "^8.11.0",
+    "node-fetch": "^3.3.1"
   }
 }
